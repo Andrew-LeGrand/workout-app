@@ -1,0 +1,21 @@
+[debug] [2022-11-08T01:26:41.926Z] ----------------------------------------------------------------------
+[debug] [2022-11-08T01:26:41.930Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\amleg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-11-08T01:26:41.930Z] CLI Version:   8.12.1
+[debug] [2022-11-08T01:26:41.931Z] Platform:      win32
+[debug] [2022-11-08T01:26:41.931Z] Node Version:  v16.17.0
+[debug] [2022-11-08T01:26:41.933Z] Time:          Mon Nov 07 2022 19:26:41 GMT-0600 (Central Standard Time)
+[debug] [2022-11-08T01:26:41.933Z] ----------------------------------------------------------------------
+[debug] [2022-11-08T01:26:41.933Z] 
+[debug] [2022-11-08T01:26:41.945Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-08T01:26:41.946Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\amleg\CodeLabs\Personal-Project\Workout-App
+
