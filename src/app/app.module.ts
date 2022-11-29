@@ -11,6 +11,8 @@ import { PlannerComponent } from './planner/planner.component';
 import { ExerciseComponent } from './shared/exercise/exercise.component';
 import { ExerciseEditComponent } from './shared/exercise-edit/exercise-edit.component';
 import { PlannerListComponent } from './planner/planner-list/planner-list.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RoutinesComponent } from './routines/routines.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +25,9 @@ import { PlannerListComponent } from './planner/planner-list/planner-list.compon
     ExerciseComponent,
     ExerciseEditComponent,
     PlannerListComponent,
+    RoutinesComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "https://workout-app-61fa3-default-rtdb.firebaseio.com/",
+    "secure": false
+  }
+}

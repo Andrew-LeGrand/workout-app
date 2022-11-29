@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Exercise } from '../exercise.model';
+import { ExerciseService } from 'src/app/exercises/exercise.service';
+import { Exercise } from './exercise.model';
 
 @Component({
   selector: 'app-exercise',
@@ -8,8 +9,13 @@ import { Exercise } from '../exercise.model';
 })
 export class ExerciseComponent implements OnInit {
   @Input() exercise: Exercise;
+  @Input() idx: number;
 
-  constructor() {}
+  constructor(private exerciseService: ExerciseService) {}
 
   ngOnInit(): void {}
+
+  onExerciseSelected() {
+    this.exerciseService.exerciseSelected.next(this.exercise);
+  }
 }

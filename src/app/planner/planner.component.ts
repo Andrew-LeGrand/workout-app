@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Exercise } from '../shared/exercise.model';
 
 @Component({
   selector: 'app-planner',

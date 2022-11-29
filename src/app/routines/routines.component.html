@@ -1,7 +1,7 @@
 <div class="row mb-3">
-  <h2 class="text-center">My Exercises</h2>
+  <h2 class="text-center">My Routines</h2>
   <hr />
-  <div class="col-md-12" *ngFor="let exerciseEl of myExercises; let i = index">
+  <div class="col-md-12" *ngFor="let exerciseEl of myRoutines; let i = index">
     <app-exercise
       class="text-center"
       [exercise]="exerciseEl"
@@ -18,7 +18,5 @@
 </div>
 <hr />
 <div class="text-center">
-  <button class="btn btn-primary">
-    Add New exercise
-  </button>
+  <button class="btn btn-primary">Add New exercise</button>
 </div>

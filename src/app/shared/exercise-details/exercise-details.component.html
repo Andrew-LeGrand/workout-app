@@ -1,18 +1,17 @@
 <div class="row">
   <div class="col-md-12">
-    <h2>Exercise Name</h2>
+    <h2>{{ exercise.name }}</h2>
   </div>
 </div>
-<div class="row">
+<div class="row col">
   <div class="col-md-3">
-    <h4>Reps:</h4>
-    <h4>Sets:</h4>
-    <p>Weight:</p>
+    <h4>{{ exercise.reps }}</h4>
   </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <img src="" alt="" class="img-responsive" />
+  <div class="col-md-3">
+    <h4>{{ exercise.sets }}</h4>
+  </div>
+  <div class="col-md-3">
+    <h4>{{ exercise.weight }}</h4>
   </div>
 </div>
 
